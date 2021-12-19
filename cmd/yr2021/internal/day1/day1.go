@@ -79,7 +79,7 @@ var INPUT = []int{
 }
 
 var Cmd = &cobra.Command{
-	Use:  "1",
+	Use:  "01",
 	RunE: run,
 }
 
