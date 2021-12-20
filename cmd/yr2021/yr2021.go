@@ -4,6 +4,7 @@ import (
 	"github.com/charlieparkes/advent-of-code/cmd/yr2021/internal/day1"
 	"github.com/charlieparkes/advent-of-code/cmd/yr2021/internal/day17"
 	"github.com/charlieparkes/advent-of-code/cmd/yr2021/internal/day2"
+	"github.com/charlieparkes/advent-of-code/cmd/yr2021/internal/day3"
 	"github.com/spf13/cobra"
 )
 
@@ -15,6 +16,7 @@ func init() {
 	Cmd.AddCommand(
 		day1.Cmd,
 		day2.Cmd,
+		day3.Cmd,
 		day17.Cmd,
 	)
 }

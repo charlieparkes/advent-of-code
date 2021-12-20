@@ -15,4 +15,4 @@ run: build
 
 .PHONY: test
 test:
-	go test ./... | grep -v 'no test files' | grep -v 'no tests to run'
+	set -o pipefail; go test ./... | grep -v 'no test files' | grep -v 'no tests to run'
